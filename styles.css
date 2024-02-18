@@ -1,0 +1,246 @@
+.body{
+    display: flex;
+flex: 1;
+}
+
+
+
+
+
+.tile-1{
+display: flex;
+background-color: #1f2937 ;
+height: 450px;
+justify-content: space-evenly;
+font-family: "Roboto", sans-serif ;
+}
+
+
+
+
+.container-1{
+display: flex;
+flex-direction: column;
+
+
+}
+
+.container-2{
+display: flex;
+flex-direction: column;
+
+}
+.img{
+height: 270px;
+width: 500px;
+border-radius: 12px;
+
+
+}
+
+/* ================================ main structure of tile 1 =====================================*/
+
+.links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-bottom: 15%;
+    
+}
+.logo{
+display: flex;
+font-size: 24px;
+color: #f9faf8;
+margin-bottom: 9%;
+padding-top: 1%;
+}
+
+.info-text{
+font-size: 48px;
+font-weight: bolder;
+color: #f9faf8;
+width: 45%;
+}
+
+.sub-info-text{
+ display: flex;
+ color: #f9faf8;
+ font-size: 18px;
+ width: 40%;
+ margin-top: 10px;
+}
+ 
+a {
+text-decoration: none;
+color: white;
+font-size: 15px;   
+}
+ .signup{
+ background:#3882f6;
+border: #3882f6;
+padding: 4px 12px;
+ border-radius: 4px;
+ color: #f9faf8;
+}
+.button{
+padding-top: 3%;
+}
+
+/* ====================================== tile 1 items ==========================================*/
+
+
+.tile-2{
+display: flex;
+height: 450px;
+
+font-family: "Roboto", sans-serif ;
+flex-direction: column;
+
+}
+
+
+.title{
+display: flex;
+font-size: 36px;
+font-weight: bolder;
+justify-content: center;
+padding: 1%;
+padding-bottom: 5%;
+}
+
+.many-boxes{
+display: flex;
+justify-content: center;
+gap: 52px;
+
+}
+
+.box{
+display: flex;
+border: 2px solid #3882f6;
+height: 150px;
+width: 150px;
+border-radius: 8px;
+max-width: 150px;
+min-height: 150px;
+}
+
+.cbox{
+display: flex;
+flex-direction: column;
+align-items:center ;
+justify-content: center;
+width: 150px;
+text-align: center;
+}
+
+   
+/* ====================================== tile 2 items ==========================================*/
+
+
+
+
+.tile-3{
+display: flex;
+height: 450px;
+background-color: #e5e7eb; 
+max-height: 450px;
+min-height: 450px;
+margin-top: 4.4%;
+flex-direction: column;
+}
+
+.words-container{
+display: flex;
+flex-direction:column;
+height: 450px;
+justify-content: center;
+align-items: center;
+}
+
+.paragraph{
+font-size: 36px;
+font-style: italic;
+font-weight: 100;
+width: 800px;
+}
+
+.thor{
+display: flex;
+width: 500px;
+justify-content: flex-end;
+padding-top: 2%;
+font-weight: bolder;
+font-size: 20px;
+}
+/* ====================================== tile 3 items ==========================================*/
+
+.tile-4{
+display: flex;
+height: 450px;
+min-height: 450px;
+
+justify-content: center;
+align-items: center;
+}
+
+.call-to-action{
+display: flex;
+background-color:#3882f6 ;
+height: 200px;
+width: 900px;
+justify-content: space-evenly;
+align-items: center;
+border-radius: 8px;
+}
+
+.text-box{
+display: flex;
+width: 300px;
+color: #f9faf8;
+font: 18px;
+flex-direction: column;
+}
+.cta{
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.sign-up{
+background-color:#3882f6;
+color: white;
+border-color: white;
+border-radius: 4px;
+padding: 4px 12px;
+}
+
+/* ====================================== tile 4 items ==========================================*/
+
+.footer{
+display: flex;
+    min-height: 75px;
+background-color: #1f2937 ;
+justify-content: center;
+align-items: center;
+}
+
+.texts{
+color: #e5e7eb;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
